@@ -271,7 +271,7 @@ hr {
         border: #403D39 2vw solid;
         border-radius: 2vw;
     }
-    img {
+    img, video {
         max-height: 25vw;
     }
     .grid2 {
