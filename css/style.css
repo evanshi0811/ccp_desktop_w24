@@ -263,6 +263,23 @@ hr {
         font-size: 16px;
         padding: 5px 0 5px 20px;
     }
+    .organize-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin: 0 10vw 25px 10vw;
+        align-items: center;
+        justify-items: center;
+    }
+    .organize-grid div, .organize-grid p {
+        margin: 0;
+    }
+    .organize-grid .grid1 {
+        margin-right: 2.5vw;
+    }
+    .organize-grid .content {
+        margin-left: 2.5vw;
+        overflow: auto;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
